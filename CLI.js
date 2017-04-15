@@ -12,6 +12,6 @@ inquirer.prompt([
     type: "list",
     name: "question",
     message: "What would you like to do?",
-    choices: ["Place an Item", "Bid on an item"]
+    choices: ["Make a card", "Study"]
     },
 ]).then(function (answers) {});
