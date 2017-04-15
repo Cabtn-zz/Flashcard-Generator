@@ -11,7 +11,7 @@ function ClozeCard(text, cloze){
 ClozeCard.prototype.clozeText = function() {
     console.log(this.cloze);
 }
-
+//this is removing the cloze word from the partial text and replacing it with "..."
 ClozeCard.prototype.partialText = function() {
     var elips = "..."
     var newstr = this.text.replace(this.cloze, elips)
